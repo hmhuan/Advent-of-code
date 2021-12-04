@@ -8,6 +8,7 @@ def readGrid(n):
         s = input()
         arr.append([[int(el), False]  for el in s.split()])
         n -= 1
+        pass
     return arr
 
 def checkBingo(arr):
@@ -20,7 +21,7 @@ def checkBingo(arr):
             bingoC &= arr[j][i][1]
         if (bingoR | bingoC):
             return True
-        
+        pass
     return False
 
 grids = []
