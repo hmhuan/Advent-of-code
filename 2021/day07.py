@@ -11,3 +11,12 @@ def calcFuel(numbers):
     return min(left, right)
 
 print(calcFuel(numbers))
+
+def calcFuelv2(numbers):
+    result = 0
+    v = sum(numbers) // len(numbers)
+    for number in numbers:
+        t = abs(number - v)
+        result += t * (t + 1) // 2
+    return result
+print(calcFuelv2(numbers))
