@@ -8,3 +8,4 @@
 - [Day 06](https://adventofcode.com/2021/day/6)
 - [Day 07](https://adventofcode.com/2021/day/7) | [input](https://adventofcode.com/2021/day/7/input)
 - [Day 08](https://adventofcode.com/2021/day/8) | [input](https://adventofcode.com/2021/day/8/input)
+- [Day 09](https://adventofcode.com/2021/day/8) | [input](https://adventofcode.com/2021/day/9/input)
